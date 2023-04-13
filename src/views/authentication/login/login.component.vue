@@ -8,7 +8,7 @@
                 </v-col>
             </v-row>
             <br /><br />
-            <h3 style="font-size:1.5rem; font-weight:500" class=" text-left ">Login To LMS</h3>
+            <h3 style="font-size:1.5rem; font-weight:500" class=" text-left ">Login To Social Media</h3>
              <h4 class="font-weight-light mb-3 lightgray--text">Welcome Back, Please login to your account</h4>
             <base-form @submit="Login" #default="{invalid}">
                 <div class="mb-3">

@@ -1,6 +1,5 @@
 import {RouteConfig} from 'vue-router';
 import UserComponent from '../user.component';
-import PrincipalComponent from '../user.component';
 import UserDashboardComponent from './../dashboard/user-dashboard.component';
 
 export const UserRoutes: Array<RouteConfig> = [

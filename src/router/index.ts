@@ -4,7 +4,7 @@ import {AuthenticationRoutes} from '@/views/authentication/routes/authentication
 
 import goTo from 'vuetify/lib/services/goto';
 import VueMeta from 'vue-meta';
-import {UserRoutes} from '@/views/principal/routes/user.routes';
+import {UserRoutes} from '@/views/user/routes/user.routes';
 import { UserService } from '@/sdk';
 
 Vue.use(VueRouter);

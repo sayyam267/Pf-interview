@@ -35,15 +35,13 @@
                     />
                 </div>
               
-                <div class="d-flex justify-space-between align-center mt-3">
-                
-                </div>
+              
                
                 <div class=" d-flex mt-3 justify-space-between align-center ">
                     <base-btn  :disabled="invalid" type="submit" class="primary px-8"  >
                         SIGN UP
                     </base-btn>
-                    <base-btn  outlined class="px-8" @click="$router.push({name: 'Login'})">
+                    <base-btn  outlined class="px-8 ml-6" @click="$router.push({name: 'Login'})">
                       Login
                     </base-btn>
                 </div>
